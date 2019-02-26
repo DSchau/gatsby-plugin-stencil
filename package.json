@@ -1,0 +1,14 @@
+{
+  "name": "gatsby-plugin-stencil",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "Dustin Schau <dustin@gatsbyjs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@stencil/core": "^0.18.0"
+  },
+  "peerDependencies": {
+    "react-dom": "^16.4.0"
+  }
+}
