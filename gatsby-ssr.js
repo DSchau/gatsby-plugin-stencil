@@ -1,6 +1,8 @@
 const stencil = require(`@stencil/core/server`)
 const { renderToString } = require(`react-dom/server`)
 
+let renderer
+
 exports.replaceRenderer = async function replaceRenderer({ bodyComponent, replaceBodyHTMLString }) {
   // re-using the renderer here, you may not need to if this is cheap, or you don't want to re-use
   if (!renderer) {
